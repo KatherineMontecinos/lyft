@@ -16,3 +16,37 @@ hr {
 .email {
 	margin-top: 3vh;
 }
+
+.next {
+	background-color: #FA0AC4;
+	height: 10vh;
+}
+
+h6 {
+	display: inline;
+}
+
+input {
+	display: inline;
+}
+
+h4 {
+	color: white;
+	padding-top: 20px;
+}
+
+.frase {
+	font-size: 11px;
+	margin-bottom: 5vh;
+	margin-top: 5vw;
+}
+
+.email i {
+	border: 1px solid gray;
+	padding: 5px;
+}
+
+.name i {
+	border: 1px solid gray;
+	padding: 5px;
+}
