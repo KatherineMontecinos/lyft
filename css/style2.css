@@ -50,3 +50,41 @@ h4 {
 	border: 1px solid gray;
 	padding: 5px;
 }
+
+.common {
+	width: 100%;
+	height: 8vh;
+	background-color: #DDDEE4;
+	margin-bottom: 5vh;
+	border-top: 1px solid gray;
+}
+
+.cerrar{
+	font-size: 17px;
+	margin-top: 1vh;
+	color:black;
+	font-weight: bold;
+}
+
+.titulo2 {
+	padding-left: 8vw;
+	padding-top: 4vh;
+	font-weight: bold;
+}
+
+h5 {
+	font-size:18px;
+}
+
+.nameflag {
+	padding-top: 1vh;
+}
+
+.imgflag {
+	padding-left: 2vw;
+}
+
+.titulo {
+	margin-bottom: 2vh;
+	margin-top: 1vh;
+}
