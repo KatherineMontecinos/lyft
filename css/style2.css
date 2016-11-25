@@ -1,5 +1,5 @@
 span {
-	font-size: 40px;
+	font-size: 15px;
 	margin-top: 20px;
 }
 
@@ -87,4 +87,12 @@ h5 {
 .titulo {
 	margin-bottom: 2vh;
 	margin-top: 1vh;
+}
+
+img {
+	padding-right: 5vw;
+}
+
+li {
+	list-style: none;
 }
