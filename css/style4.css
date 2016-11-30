@@ -12,13 +12,14 @@ header nav {
 	max-width:60vw;
 	margin:20px auto;
 	background: white;
-	z-index: 4;
+	z-index: 5;
 }
  
 .menu_bar {
 	display:none;
 	width:80%;
 	max-width:80vw;
+	z-index: 4;
 }
  
 header nav ul {
@@ -32,7 +33,7 @@ header nav ul li {
  
 header nav ul li a {
 	color:#000;
-	padding:15px;
+	padding:13px;
 	display:block;
 	text-decoration:none;
 }
@@ -42,7 +43,7 @@ header nav ul li span {
 }
  
 header nav ul li a:hover {
-	background:pink;
+	background:#8DC508;
 }
  
 section {
@@ -50,24 +51,18 @@ section {
 }
 
  
-	.menu_bar {
+.menu_bar {
 		display:block;
 		text-align: left;
-	}
+}
  
-	.menu_bar .bt-menu {
-		display:block;
-		background-image: url('../img/profile-circle.jpg');
-		background-repeat: no-repeat;
-		background-position: center;
-		background-size: cover;
-		width: 10vw;
-		height: 10vh;
-	}
+.menu_bar .bt-menu {
+	display:block;
+}
  
-	.menu_bar span {
-		float:right;
-	}
+.menu_bar span {
+	float:right;
+}
  
 @media screen and (max-width:800px ) {
 	header nav {
@@ -81,8 +76,18 @@ section {
 	header nav ul li {
 		display:block;
 		float:none;
-		border-bottom: 1px solid rgba(200,200,200, .3);
+		border-bottom: 1px solid #8DC508;
 	}
 
 
+}
+
+.foto1{
+	height: 22vh;
+	text-align: center;
+	margin-left: 40px;
+}
+
+.drive {
+	background-color: gray;
 }
