@@ -20,6 +20,7 @@ header nav {
 	width:80%;
 	max-width:80vw;
 	z-index: 4;
+	position: absolute;
 }
  
 header nav ul {
@@ -50,7 +51,6 @@ section {
 	padding:20px;
 }
 
- 
 .menu_bar {
 		display:block;
 		text-align: left;
@@ -58,6 +58,7 @@ section {
  
 .menu_bar .bt-menu {
 	display:block;
+	margin-top: 5px;
 }
  
 .menu_bar span {
@@ -86,8 +87,15 @@ section {
 	height: 22vh;
 	text-align: center;
 	margin-left: 40px;
+	margin-top: 10px;
 }
 
 .drive {
 	background-color: gray;
+}
+
+.logo2{
+	width: 15vw;
+	margin-left: 40vw;
+	margin-top: -6vh;
 }

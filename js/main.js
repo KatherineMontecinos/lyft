@@ -61,7 +61,7 @@ $('#codigo').html(pais.codigo);
 */
 
 
-
+// Funcion que valida numero de telefono del input 
 $(document).ready(function(){
 	$('#nextbtn').click(function(){
 		if ($('#numeros').val().length != 9 || isNaN($('#numeros').val())) {
@@ -72,16 +72,53 @@ $(document).ready(function(){
  	});
 })
 
-	/*$('#nextbtn').on('click', function(){
-		var btnnext = $('#numeros').val(){
-			if (btnnext.length != 9){
-			alert('Numero debe ser de 9 digitos');
-		}
-		if (isNaN(btnnext)){
-			alert('Debe contener numeros');
-		}
-		
-	});*/
+
+// Funcion que valida email 
+/*$(document).ready(function(){
+	$('.next2').click(function(){
+		if($('#email').val().length < 50 || 
+            alert('Ingresar correo valido');
+            return false;
+        }
+
+    });
+})*/
+
+$('.next2').on('click', function(){
+	var nombre = $('#name').val();
+
+// Esto es para guardar los datos 
+	localStorage.setItem('nombre_user', nombre);
+	});
+
+
+ 
+// Funcion random 
+/*function numerorandom(){
+var length = 3,
+charset = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789",
+retVal = "";
+	for (var i = 0, n = charset.length; i < length; ++i) {
+	retVal += charset.charAt(Math.floor(Math.random() * n));
+    }
+
+    alert('LAB -' + retVal,3000);
+
+  }*/
 
 
 
+ //function funcion() {
+ //	var x = document.getElementById("demo");
+ 	//x.innerHTML = 'LAB - ' + Math.floor((Math.random() * 900) + 99); 
+
+
+ //}
+
+
+ $('#nextbtn').on('click', function(){
+	var fono = $('#numeros').val();
+
+// Esto es para guardar los datos 
+	localStorage.setItem('fono_user', fono);
+	});
